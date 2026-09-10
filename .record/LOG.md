@@ -3,6 +3,39 @@
 Append only. Newest entry at the top.
 Entry shape: ## YYYY-MM-DD [tag] short title, with an evidence line under it.
 
+## 2026-09-10 [record] Session close, commit and push result
+
+evidence: the record commit in this repository is e727038, message
+"record: add in-repo project record and CLAUDE.md rule". Push succeeded to https://github.com/MicroLink-Data-Centers/microlink-map.git.
+This entry exists because a commit cannot contain its own hash, so the hash and
+the push result of the commit above are stamped here in a second commit.
+
+evidence: session totals, read by command. 93 directories under
+C:\Users\Dell\Code, 63 of them git repositories. 63 records created, 63 LOG.md
+created, 60 CLAUDE.md created and 3 record blocks replaced. Pushes: 54
+succeeded, 6 skipped for no remote, 3 failed. The three failures are
+microlink-hq-v3 (HTTP 403, no write access), microlinkdc-mcs (HTTP 403, no
+write access) and microlink-loom (non-fast-forward, 1 ahead and 5 behind
+origin/main). In all three the record is committed locally and is not yet
+off-machine.
+
+evidence: Drive mirror SKIPPED because the mount is down. Test-Path on
+"G:\My Drive\MicroLink\04 Operations\06 Project Record" returned False and
+Get-PSDrive listed only C and Temp. The skip did not stop the session and did
+not block this write.
+
+evidence: Desktop handoff files corrected in place. Line numbers as they stand
+after the edit: "Come code with us.. ;).md" lines 123, 125 and 289-296; "Give me
+a G drive for coding.md" lines 184-196; "My daily streatch.md" lines 29-37;
+"Daily Run Instructions.md" lines 207-211. The drive-letter ladder is gone from
+all four.
+
+evidence: NOT corrected, outside the named scope of this session, and each still
+declares the Drive path the only record and instructs a session to STOP when it
+is missing: C:\Users\Dell\Code\CLAUDE.md, the tail block of each of those four
+Desktop files, and C:\Users\Dell\.claude\CLAUDE.md. Until those are changed they
+contradict the rule written into this repository's CLAUDE.md.
+
 ## 2026-09-10 [record] In-repo project record created
 
 evidence: .record/STATE.md and .record/LOG.md created in this repository on
